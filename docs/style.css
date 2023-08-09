@@ -2,6 +2,40 @@ html {
   scroll-behavior: smooth;
 }
 
+.row>div>button:first-child {
+  padding: 0;
+  height: fit-content;
+  font-size: 25px;
+  user-select: none;
+}
+
+.row>div>button:first-child a{
+  padding: 15px 40px;
+  box-sizing: border-box;
+  line-height: 60px;
+  color: inherit;
+  font-weight: 700;
+  text-decoration: underline;
+  cursor: pointer
+}
+
+.row>div>button:last-child {
+  margin-top: 10px;
+  padding: 0;
+  font-size: 18px;
+  user-select: none;
+}
+
+.row>div>button:last-child a {
+  padding: 0px 25px;
+  box-sizing: border-box;
+  line-height: 40px;
+  color: inherit;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+
 #product-hunt {
   margin-top: 1rem;
 }
@@ -62,4 +96,5 @@ body > footer {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  margin: 35px 0;
 }
